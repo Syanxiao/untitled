@@ -8,7 +8,7 @@ public class Mgr02 {
     private static Mgr02 INSTANCE;
 
     private Mgr02(){}
-
+    
     public static Mgr02 getInstance(){
         if (INSTANCE == null) {
             INSTANCE = new Mgr02();
